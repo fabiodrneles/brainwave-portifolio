@@ -1,4 +1,6 @@
-import ButtonGradient from "./assets/svg/ButtonGradient"
+import ButtonGradient from "./assets/svg/ButtonGradient";
+import Button from "./components/Button";
+
 
 const App = () => {
 
@@ -9,11 +11,10 @@ const App = () => {
         <Button className="mt-10" href="#login">
           Something
         </Button>
-
       </div>
       <ButtonGradient />
     </>
-  )
-}
+  );
+};
 
 export default App
